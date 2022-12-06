@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(16, 131, 157);
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 4px solid black;
+    align-items: center;
+    background-color: white;
+    margin: 50px;
+}
+.image-part{
+    flex: 1;
+    margin: 0;
+    margin-bottom: -1;
+}
+.love-img{
+    width: 400px;
+    padding: 0;
+    margin: 0;
+}
+.text{
+    flex: 1;
+    margin-top: 2px;
+    margin-bottom: 40px;
+}
+.text h1{
+    font-size: 64px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+}
+.text p{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+}
